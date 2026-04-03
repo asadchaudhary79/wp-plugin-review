@@ -51,6 +51,23 @@ The workflow follows these phases:
   - `report-template.md`: Structure for the final review report.
 - `SKILL.md`: Detailed instructions for the AI reviewer.
 
+## 🎯 What Are Agent Skills?
+
+Agent Skills are an **open standard** for extending AI agents with specialized capabilities. A skill is simply a folder containing a `SKILL.md` file (with YAML frontmatter + instructions) and optional supporting files like `references/`, `scripts/`, and `assets/`.
+
+All major AI coding tools now support the same skills format natively:
+
+| Tool | Project Skills Location | Global Skills Location | Docs |
+| :--- | :--- | :--- | :--- |
+| **Claude Code** | `.claude/skills/` | — | [docs](https://code.claude.com/docs/en/skills) |
+| **Cursor** | `.cursor/skills/` | `~/.cursor/skills/` | [docs](https://cursor.com/docs/skills) |
+| **Windsurf** | `.windsurf/skills/` | `~/.codeium/windsurf/skills/` | [docs](https://docs.windsurf.com/windsurf/cascade/skills) |
+| **Antigravity** | `.agent/skills/` | `~/.gemini/antigravity/skills/` | [docs](https://antigravity.google/docs/skills) |
+| **GitHub Copilot** | `.github/skills/` | `~/.copilot/skills/` | [docs](https://code.visualstudio.com/docs/copilot/customization/agent-skills) |
+| **Codex (OpenAI)** | `.codex/skills/` | `~/.codex/skills/` | [docs](https://developers.openai.com/codex/skills) |
+
+Write once, use everywhere. Skills you create for one tool work across all tools that support the standard.
+
 ## License
 
 GPL-2.0-or-later
