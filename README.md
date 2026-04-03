@@ -68,6 +68,23 @@ All major AI coding tools now support the same skills format natively:
 
 Write once, use everywhere. Skills you create for one tool work across all tools that support the standard.
 
-## License
+## 🤝 Contributing
 
-GPL-2.0-or-later
+Contributions are welcome! If you’d like to improve these skills:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b improve-security-reference`)
+3. Make your changes
+4. Test with your preferred AI agent to verify the skill produces correct output
+5. Submit a pull request
+
+### Areas that could use contributions:
+
+- Additional boilerplate patterns (e.g., WP-CLI commands, multisite support)
+- Expanded Gutenberg block development patterns
+- Performance optimization reference
+- Testing/CI pipeline patterns
+
+## 📄 License
+
+This project is licensed under the GPLv2 or later, consistent with WordPress itself.
