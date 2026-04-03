@@ -1,0 +1,11 @@
+# Composer
+vendor/
+composer.lock
+
+# Report outputs
+reports/
+*.json
+
+# OS files
+.DS_Store
+Thumbs.db
